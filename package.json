@@ -1,0 +1,22 @@
+{
+  "name": "redis-playground",
+  "version": "1.0.0",
+  "description": "playing with redis and testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon string.js"
+  },
+  "keywords": [
+    "redis",
+    "speed",
+    "lightning",
+    "macqueen"
+  ],
+  "author": "adnan_a",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "nodemon": "^3.1.4"
+  }
+}
