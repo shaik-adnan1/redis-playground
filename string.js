@@ -11,8 +11,8 @@ const init = async () => {
     console.log("<===== Lists =====>")
 
     console.log("")
-    // const listpush = await client.lpush("messages", "lpush op");
-    // const listpush1 = await client.lpush("messages", "lpush2 op");
+    const listpush = await client.lpush("messages", "lpush op");
+    const listpush1 = await client.lpush("messages", "lpush2 op");
     const listPop1 = await client.blpop("messages", 40);
     console.log("Lists => ", {
         listPop1
